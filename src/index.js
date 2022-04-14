@@ -1,9 +1,9 @@
 import { render } from "react-dom";
-import GetLocation from "./Components/Location";
+import GetLocation from './Components/Location'
 
 function App() {
 
-    return (<GetLocation />)
+    return <GetLocation />
 }
 
 render(<App />, document.querySelector(".root"));
